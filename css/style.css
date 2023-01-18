@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main {
+  background-color: lightgray;
+  margin: 80px 20px 80px 20px;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#image {
+  max-width: max-content;
+  width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  padding: 10px;
+}
+
+h3,
+h1 {
+  text-align: center;
+}
+
+#list-info {
+  width: fit-content;
+  margin: auto 20px auto 20px;
+}
+li {
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  height: 500px;
+  position: relative;
+  font-size: large;
+  padding: 20px;
+  font-weight: 600;
+}
